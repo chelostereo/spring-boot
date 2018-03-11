@@ -18,7 +18,7 @@ public class Application {
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
 
-        	System.out.println("nueva linea!");
+        	System.out.println("nueva vieja linea!!");
             System.out.println("[Ahora en Español] Let's inspect the beans provided by Spring Boot:");
 
             String[] beanNames = ctx.getBeanDefinitionNames();
